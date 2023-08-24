@@ -1,0 +1,80 @@
+body {
+    background-color: rgba(80, 80, 210, 0.694);
+}
+
+div {
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    font-size: 19px;
+}
+
+.div-form {
+    display: grid;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    margin: 3px;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 19px;
+}
+#div{
+    display: inline-flex;
+    background-color: rgb(86, 83, 83);
+    height: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.sign_in {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+}
+.movie_div{
+   padding: 10%;
+    height: 29px;
+    border: 1px solid red;
+    margin: 10px;
+}
+.movie_container{
+    display: flex;
+
+flex-wrap: wrap;
+   gap: 30px;
+   justify-content: center;
+   overflow-y: scroll;
+   width: 400px;
+   height: 400px;
+}
+button {
+    padding: 2%;
+    outline: none;
+    border: none;
+    margin: 0 10px;
+    background-color: aqua;
+    border-radius: 3px;
+    color: red;
+    font-size: 17px;
+}
+
+.links {
+    color: black;
+    text-decoration: none;
+    margin: 0 5px ;
+}
+.Signin{
+    text-decoration: none;
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 100px;
+    margin: 5px;
+    background-color:chocolate;
+}
